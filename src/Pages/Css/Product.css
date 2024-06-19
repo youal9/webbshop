@@ -1,0 +1,41 @@
+.product-card {
+    
+    width: 18rem; /* Justera bredden efter dina behov */
+    border: 1px solid black;
+    height: 450px;
+    border-radius: 30px;
+    margin: 20px;
+    transition: box-shadow 0.3s ease; /* Lägg till övergångseffekt för box-shadow */
+    cursor: pointer; /* Lägg till en pekare när musen hovrar över kortet */
+}
+
+.product-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+   
+}
+
+.product-image {
+    width: 90%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.product-image-wrapper:hover .product-image {
+    transform: scale(1.1); /* Förstorar bilden vid hover */
+}
+.product-card .product-image{
+    padding: 20px;
+}
+
+
+
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Lägg till skugga när musen hovrar över kortet */
+}

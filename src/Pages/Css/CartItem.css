@@ -1,0 +1,49 @@
+.cartitem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    
+  }
+  
+  .cartitem img {
+    width: 120px; /* Justera storleken på produktbilden */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .cartitem .description {
+    flex: 1;
+  }
+  
+  .cartitem p {
+    margin: 0;
+  }
+  
+  .cartitem .counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartitem .counter button {
+    background-color: #007bff; /* Justera färgen efter behov */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+ 
+  
+  .cartitem .counter input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+  }
+  
