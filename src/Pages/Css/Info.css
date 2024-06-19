@@ -1,0 +1,71 @@
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+   
+  
+  }
+  
+  .product-detail {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .productt-image {
+    max-width: 300px;
+    height: auto;
+    margin-left: 40px;
+  }
+  
+  .product-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .product-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-title {
+    font-weight: bold;
+  }
+  
+  .cart-pro{
+    
+    width: 12%;
+    padding:  30px; /* Minska padding för att minska storleken */
+    font-size: 12px;
+    min-height: 10vh;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .product-detail {
+      flex-direction: column; /* Ändra riktningen på flexboxen till kolumn */
+    }
+  
+    .product-info-container {
+      padding: 20px; /* Lägg till lite utrymme runt produktinformationen */
+    }
+  
+    .product-info {
+      margin-bottom: 10px; /* Justera mellanrummet mellan produktinformationselementen */
+    }
+  
+    .product-image {
+      width: 100%; /* Gör produktbilden fullbredd */
+    }
+  
+    .cart-pro {
+      margin-top: 20px; /* Justera avståndet mellan produktinformationen och knappen "Add to Cart" */
+      width: 50%;
+    }
+  }

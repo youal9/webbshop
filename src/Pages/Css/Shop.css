@@ -1,0 +1,100 @@
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4.5px;
+  }
+  .title h1{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  .shop {
+   width: 100%; /* Ange den maximala bredden för huvudinnehållet */
+    margin: 0 auto; /* Centrera huvudinnehållet */
+    padding: 0 20px; /* Lägg till lite utfyllnad på sidorna för att skapa utrymme runt innehållet */
+     min-height: 100vh; 
+  }
+  
+
+  
+  
+  .shop-products{
+    width: 100%;
+    margin-top: 60px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+  
+    width: 250px; /* Justera bredden efter dina behov */
+    
+    margin: 20px; /* Minskade marginaler för att skapa mer utrymme mellan produkterna */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Lägg till övergångseffekt för box-shadow och transform */
+    cursor: pointer; /* Lägg till pekare när musen hovrar över produkten */
+  }
+
+  .product img {
+    width: 100%;
+    padding: 40px; /* Bilden ska fylla sin förälders bredd */
+   /* Runda hörn för överkanten av bilden */
+  }
+
+  a {
+    
+    text-decoration: none;
+}
+  
+  .product .description {
+    text-align: center;
+    padding: 200px; /* Lägg till utfyllnad för att öka utrymmet runt beskrivningen */
+  }
+  
+  .product:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Lägg till skugga när musen hovrar över produkten */
+    transform: translateY(-9px); /* Lyft upp produkten något när musen hovrar över den */
+    cursor: pointer; /* Byt till pekare när musen hovrar över produkten */
+  }
+  .search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Justera toppmarginalen efter behov */
+  }
+  
+  .search-form {
+  display: flex;
+  align-items: center;
+  }
+  
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    .shop {
+      width: 100%; /* Ändra bredden på hela shop-container till full bredd för mobila enheter */
+      
+    }
+   
+    
+  
+    .title h1 {
+      font-size: 2.5rem; /* Justera storleken på rubriken för mobila enheter */
+    }
+  
+    .shop-products{
+      width: 100%; /* Ändra bredden på produktcontainer till full bredd för mobila enheter */
+      display: grid;
+      align-items: center;
+     grid-template-columns: 1fr  ;
+      margin-top: 20px; /* Justera övre marginal för produkter för mobila enheter */
+    }
+  
+    
+  }

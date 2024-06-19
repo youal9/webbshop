@@ -1,0 +1,40 @@
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000000dd;
+    color: #ffffff;
+   
+    position: relative;
+    padding: 1rem 10%;
+    
+   height: 100px; /* Lägg till min-height för att footern ska sträcka sig hela vägen ner */
+  }
+  
+  .Footer p {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  .Footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .Footer {
+      padding: 1rem 5%;
+      display: flex;
+      flex-direction: column;
+     
+    }
+  
+    .Footer p {
+      margin: 0.3rem;
+      font-size: 0.6rem;
+    }
+  }

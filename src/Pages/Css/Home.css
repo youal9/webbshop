@@ -1,0 +1,137 @@
+.home {
+    width: 100%;
+    display: grid;
+  
+}
+
+.hero-section {
+    position: relative;
+   
+}
+
+.image-overlay {
+    position: relative;
+}
+.hero-section .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.hero-text p{
+    font-size: larger;
+}
+
+
+.image-overlay img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.image-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(15, 9, 9, 0.604), rgba(0, 0, 0, 0.775));
+  }
+
+
+  /* video css*/
+.video-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-container video {
+    
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .video-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(7, 7, 8, 0.7), rgba(1, 1, 2, 0.801));
+  }
+ 
+  
+  .video-text {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .video-text h2,
+  .video-text p {
+    margin: 0;
+  }
+  .video-text h2{
+    margin-bottom: 90px;
+  }
+
+  .productss{
+    width: 100%;
+    margin-top: 60px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+}
+.future{
+    text-align: center;
+    margin-top: 55px;
+   
+}
+.future-text h2{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-overlay img {
+        height: 400px; /* Justera höjden på bilden för mobila enheter */
+      }
+    
+      .video-container video {
+        height: 400px; /* Justera höjden på videon för mobila enheter */
+      }
+      .video-text h1 {
+      
+      margin-left: 90px;
+      margin-top: 15px;
+      
+      }
+      .hero-text p {
+        font-size: smaller; /* Justera textstorleken för mobilvisning */
+        max-width: 100%; /* Begränsa textens bredd för att undvika att den lämnar hero-section */
+        margin: 0 auto; /* Centrera texten horisontellt */
+        /* Centrera texten */
+    }
+      .video-text h2{
+        
+        margin-left: 90px;
+        
+        }
+      .productss {
+        display: grid;
+        grid-template-columns: 1fr ; /* Uppdatera till två kolumner för mobila enheter */
+        gap: 20px; /* Lägg till mellanrum mellan grid-element för mobila enheter */
+        margin-top: 20px; /* Justera övre marginal för produkter för mobila enheter */
+      }
+  }
+  

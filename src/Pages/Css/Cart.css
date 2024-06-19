@@ -1,0 +1,23 @@
+.cart {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}
+.cart h1{
+ text-align: center;
+}
+.checkout-button{
+   margin-left: 15px;
+}
+
+@media screen and (max-width: 769px) {
+ 
+  
+    .checkout {
+      margin-top: 50px; /* Placera checkout-knapparna längst ner */
+    }
+  }
