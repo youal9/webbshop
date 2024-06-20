@@ -32,7 +32,7 @@ const Kids = () => {
     <div className='shop'>
       
       <div className="title">
-        <h1>Mens Collection</h1>
+        <h1>Kids Collection</h1>
       </div>
 
       <div className="search-container">
