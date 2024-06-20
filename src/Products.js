@@ -20,6 +20,15 @@ import product19 from "./assets/women puma.jpg"
 import product20 from "./assets/women shirt.jpg"
 import product21 from "./assets/women slids.jpg"
 import product22 from "./assets/women puma shirt.jpg"
+import product23 from "./assets/kid white shirt.jpg"
+import product24 from "./assets/kid shoe.jpg"
+import product25 from "./assets/kid nike shoe.jpg"
+import product26 from "./assets/kid neymar shirt.jpg"
+import product27 from "./assets/kid bayern.jpg"
+import product28 from "./assets/kid zip.jpg"
+import product29 from "./assets/kid blue shoe.jpg"
+import product30 from "./assets/kid glovs.jpg"
+import product31 from "./assets/kid hoodie.jpg"
 
 
 
@@ -223,6 +232,87 @@ export const Products=[
         productImage:product22,
         description:"Cropped Tee Women", 
         category: "women" 
+
+    },
+    {
+        id:23,
+        productName:"PUMA T-Shirt Neymar Jr ",
+        price:"500",
+        productImage:product23,
+        description:" InstitutoVit Barn", 
+        category: "kids" 
+
+    },
+    {
+        id:24,
+        productName:"Varion II V Jr PUMA  ",
+        price:"500",
+        productImage:product24,
+        description:"White-Blue Horizon ", 
+        category: "kids" 
+
+    },
+    {
+        id:25,
+        productName:"Nike Jr. Mercurial Vapor ",
+        price:"500",
+        productImage:product25,
+        description:"14 Club MG för barn ", 
+        category: "kids" 
+
+    },
+    {
+        id:26,
+        productName:"Nike T-Shirt ",
+        price:"500",
+        productImage:product26,
+        description:"Nike - T-Shirt Neymar JR ", 
+        category: "kids" 
+
+    },
+    {
+        id:27,
+        productName:"Bayern München  ",
+        price:"500",
+        productImage:product27,
+        description:"Hemmatröja 2024/25 Baby-Kit Barn", 
+        category: "kids" 
+
+    },
+    {
+        id:28,
+        productName:"PUMA Träningströja ",
+        price:"500",
+        productImage:product28,
+        description:"Neymar Jr. Half Zip Flare-Barn", 
+        category: "kids" 
+
+    },
+    {
+        id:29,
+        productName:" Puma Varion II ",
+        price:"500",
+        productImage:product29,
+        description:" Indoor Sports Shoes", 
+        category: "kids" 
+
+    },
+    {
+        id:30,
+        productName:"Gloves  ",
+        price:"500",
+        productImage:product30,
+        description:" Black Gloves  ", 
+        category: "kids" 
+
+    },
+    {
+        id:31,
+        productName:"BVB FtblCulture Hoody Jr ",
+        price:"500",
+        productImage:product31,
+        description:" Dortmund Hoodie  ", 
+        category: "kids" 
 
     },
     
