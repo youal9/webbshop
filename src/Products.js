@@ -10,6 +10,16 @@ import product9 from "./assets/aik.jpg"
 import product10 from "./assets/adidas-shoe.jpg"
 import product11 from "./assets/blazer2 green.png"
 import product12 from "./assets/Greentshirt.webp"
+import product13 from "./assets/uni.jpg"
+import product14 from "./assets/women1.jpg"
+import product15 from "./assets/Womenshoe.jpg"
+import product16 from "./assets/women hoodie.jpg"
+import product17 from "./assets/women legging.jpg"
+import product18 from "./assets/women top.jpg"
+import product19 from "./assets/women puma.jpg"
+import product20 from "./assets/women shirt.jpg"
+import product21 from "./assets/women slids.jpg"
+import product22 from "./assets/women puma shirt.jpg"
 
 
 
@@ -54,61 +64,70 @@ export const Products=[
     },
     {
         id:5,
-        productName:"fc barcelona",
-        price:"500",
+        productName:"Converse",
+        price:"600",
         productImage:product5,
-        description:"Barcelona Hemmatröja 2023/24 ", 
+        description:"Chuck Taylor All Star ", 
         category: "men" ,
       
-        size: ["39", "40", "41", "42"]
+       
     },
     {
         id:6,
-        productName:"fc barcelona",
-        price:"500",
+        productName:" Essential ",
+        price:"800",
         productImage:product6,
-        description:"Barcelona Hemmatröja 2023/24 ", 
+        description:"Fear of God Essentials Buttercream Hoodie ", 
         category: "men" 
         
     },
     {
         id:7,
-        productName:"fc barcelona",
-        price:"500",
+        productName:"jordan 1",
+        price:"2000",
         productImage:product7,
-        description:"Barcelona Hemmatröja 2023/24 ", 
+        description:" AIR JORDAN 1 Höga sneakers", 
         category: "men" 
 
     },
     {
         id:8,
-        productName:"fc barcelona",
-        price:"500",
+        productName:"Air Force 1",
+        price:"900",
         productImage:product8,
-        description:"Barcelona Hemmatröja 2023/24 ", 
+        description:" Nike Air Force 1 '07 - White/Black", 
         category: "men" 
 
     },
     {
         id:9,
-        productName:"fc barcelona",
-        price:"500",
-        productImage:product9,
-        description:"Barcelona Hemmatröja 2023/24 ", 
-        category: "home" 
+        productName:" Underställsshorts ",
+        price:"200",
+        productImage:product13,
+        description:" Tättsittande passform ", 
+        category: "men" 
 
     },
     {
         id:10,
-        productName:"fc barcelona",
+        productName:"Aik",
         price:"500",
-        productImage:product10,
-        description:"Barcelona Hemmatröja 2023/24 ", 
+        productImage:product9,
+        description:"NIKE BORTATRÖJA ", 
         category: "home" 
 
     },
     {
         id:11,
+        productName:"GAZELLE",
+        price:"500",
+        productImage:product10,
+        description:" adidas Originals Spezial IN - Preloved Red/Vit/Vit", 
+        category: "home" 
+
+    },
+    {
+        id:12,
         productName:"converse",
         price:"500",
         productImage:product11,
@@ -117,7 +136,7 @@ export const Products=[
 
     },
     {
-        id:12,
+        id:13,
         productName:"t-shirt",
         price:"500",
         productImage:product12,
@@ -125,4 +144,86 @@ export const Products=[
         category: "home" 
 
     },
+    {
+        id:14,
+        productName:"USA Hemmatröja  ",
+        price:"500",
+        productImage:product14,
+        description:"Women's World Cup 2023 Dam ", 
+        category: "women" 
+
+    },
+    {
+        id:15,
+        productName:"Puma Jada ",
+        price:"500",
+        productImage:product15,
+        description:"Renew Sneakers Women ", 
+        category: "women" 
+
+    },
+    {
+        id:16,
+        productName:"Nike Luvtröja ",
+        price:"500",
+        productImage:product16,
+        description:"NSW Tech Fleece - Svart", 
+        category: "women" 
+
+    },
+    {
+        id:17,
+        productName:"Puma FormKnit ",
+        price:"500",
+        productImage:product17,
+        description:"Seamless Training Leggings Women", 
+        category: "women" 
+
+    },
+    {
+        id:18,
+        productName:"PUMA x PAMELA REIF ",
+        price:"500",
+        productImage:product18,
+        description:"Contour Training Top Women", 
+        category: "women" 
+
+    },
+    {
+        id:19,
+        productName:"Puma Carina 2.0 Mid ",
+        price:"500",
+        productImage:product19,
+        description:"Winter Sneakers Women ", 
+        category: "women" 
+
+    },
+    {
+        id:20,
+        productName:"Sverige Tränings T-Shirt ",
+        price:"500",
+        productImage:product20,
+        description:"Condivo 21 - Gul/Navy Dam", 
+        category: "women" 
+
+    },
+    {
+        id:21,
+        productName:"Puma Shibusa ",
+        price:"500",
+        productImage:product21,
+        description:"Slides Women", 
+        category: "women" 
+
+    },
+    {
+        id:22,
+        productName:" Puma Essentials Logo",
+        price:"500",
+        productImage:product22,
+        description:"Cropped Tee Women", 
+        category: "women" 
+
+    },
+    
 ]
