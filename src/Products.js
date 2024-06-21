@@ -39,7 +39,7 @@ export const Products=[
         productName:"fc barcelona",
         price:"500",
         productImage:product1,
-        description:"Barcelona Hemmatröja 2023/24 ", 
+        description:"Barcelona Home Shirt 2023/24 ", 
         category: "men" 
         
 
@@ -49,7 +49,7 @@ export const Products=[
         productName:"Manchester united",
         price:"350",
         productImage:product2,
-        description:"Man U Hemmatröja 2023/24 ", 
+        description:"Man U Home Shirt 2023/24 ", 
         category: "men" 
 
     },
@@ -58,7 +58,7 @@ export const Products=[
         productName:"Ac Milan",
         price:"400",
         productImage:product3,
-        description:"Ac Milan Hemmatröja 2023/24 ", 
+        description:"Ac Milan Home Shirt 2023/24 ", 
         category: "men" 
 
     },
@@ -67,7 +67,7 @@ export const Products=[
         productName:"Real Madrid",
         price:"600",
         productImage:product4,
-        description:"Real Madrid Hemmatröja 2023/24 ", 
+        description:"Real Madrid Away Shirt 2023/24 ", 
         category: "men" 
 
     },
@@ -95,7 +95,7 @@ export const Products=[
         productName:"jordan 1",
         price:"2000",
         productImage:product7,
-        description:" AIR JORDAN 1 Höga sneakers", 
+        description:" AIR JORDAN 1 ", 
         category: "men" 
 
     },
@@ -110,10 +110,10 @@ export const Products=[
     },
     {
         id:9,
-        productName:" Underställsshorts ",
+        productName:" Base layer shorts ",
         price:"200",
         productImage:product13,
-        description:" Tättsittande passform ", 
+        description:" Sports Cropped Leggings ", 
         category: "men" 
 
     },
@@ -122,7 +122,7 @@ export const Products=[
         productName:"Aik",
         price:"500",
         productImage:product9,
-        description:"NIKE BORTATRÖJA ", 
+        description:"NIKE Away Shirt ", 
         category: "home" 
 
     },
@@ -140,7 +140,7 @@ export const Products=[
         productName:"converse",
         price:"500",
         productImage:product11,
-        description:" Chuck Taylor All Star - Höga sneakers", 
+        description:" Chuck Taylor All Star ", 
         category: "home" 
 
     },
@@ -149,7 +149,7 @@ export const Products=[
         productName:"t-shirt",
         price:"500",
         productImage:product12,
-        description:"tränigs t-shirt ", 
+        description:"training t-shirt ", 
         category: "home" 
 
     },
@@ -158,7 +158,7 @@ export const Products=[
         productName:"USA Hemmatröja  ",
         price:"500",
         productImage:product14,
-        description:"Women's World Cup 2023 Dam ", 
+        description:"Women's World Cup 2023  ", 
         category: "women" 
 
     },
@@ -176,7 +176,7 @@ export const Products=[
         productName:"Nike Luvtröja ",
         price:"500",
         productImage:product16,
-        description:"NSW Tech Fleece - Svart", 
+        description:"NSW Tech Fleece ", 
         category: "women" 
 
     },
@@ -209,10 +209,10 @@ export const Products=[
     },
     {
         id:20,
-        productName:"Sverige Tränings T-Shirt ",
+        productName:"Sweden training T-Shirt ",
         price:"500",
         productImage:product20,
-        description:"Condivo 21 - Gul/Navy Dam", 
+        description:"Condivo 21 - Gul/Navy ", 
         category: "women" 
 
     },
@@ -239,7 +239,7 @@ export const Products=[
         productName:"PUMA T-Shirt Neymar Jr ",
         price:"500",
         productImage:product23,
-        description:" InstitutoVit Barn", 
+        description:" InstitutoVit Kid", 
         category: "kids" 
 
     },
@@ -257,7 +257,7 @@ export const Products=[
         productName:"Nike Jr. Mercurial Vapor ",
         price:"500",
         productImage:product25,
-        description:"14 Club MG för barn ", 
+        description:"14 Club MG for kids ", 
         category: "kids" 
 
     },
@@ -275,13 +275,13 @@ export const Products=[
         productName:"Bayern München  ",
         price:"500",
         productImage:product27,
-        description:"Hemmatröja 2024/25 Baby-Kit Barn", 
+        description:"Home Shirt 2024/25 Baby-Kit Barn", 
         category: "kids" 
 
     },
     {
         id:28,
-        productName:"PUMA Träningströja ",
+        productName:"PUMA Training shirt ",
         price:"500",
         productImage:product28,
         description:"Neymar Jr. Half Zip Flare-Barn", 

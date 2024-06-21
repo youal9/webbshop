@@ -44,7 +44,7 @@ const Cart = () => {
         </div>
       ) : (
         <div className="thank-you-message">
-          <h1>Tack för din beställning!</h1>
+          <h1>Thank you for shopping with us!</h1>
           <FontAwesomeIcon icon={faTruck} className="truck-icon" />
         </div>
       )}
@@ -63,7 +63,7 @@ const Cart = () => {
           )}
         </div>
       ) : (
-        <h1>Varukorgen är tom</h1>
+        <h1>Cart is empty</h1>
       )}
     </div>
   );

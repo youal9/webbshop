@@ -12,7 +12,7 @@ const Home = () => {
     const homeProducts = Products.filter(product => product.category === 'home');
 
     const[typewriter]=useTypewriter({
-        words:['Stil och mode','Prestanda och hållbarhet','Komfort'],
+        words:['Style and Fashion','Performance and Durability','Comfort'],
         loop:{},
         typeSpeed:100,
         delaySpeed:1000,
@@ -26,7 +26,7 @@ const Home = () => {
           <div className="video-container">
             <video src={video} autoPlay loop muted style={{ maxWidth: "100%", maxHeight: "500px" }} />
             <div className='video-text'>
-                <h2>våran nya </h2>
+                <h2> Coming Soon</h2>
             </div>
             <div className="video-text">
         
@@ -37,7 +37,7 @@ const Home = () => {
 
         <section className='hero-section'>
           <div className="hero-text">
-            <h2>our History</h2>
+            <h2>Our History</h2>
             <p><b>
              AthletX is not just a brand today; it is a movement.
               With a dedicated community of athletes and a passionate fan base,
