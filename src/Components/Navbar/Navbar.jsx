@@ -1,14 +1,17 @@
-import React from 'react';
+import React ,{ useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import Badge from 'react-bootstrap/Badge';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { ShopContext } from "../Context/ShopContext"; // Importera din ShopContext
 
-const CustomNav = () => { 
+const CustomNav = () => {
+  const { getTotalCartItems } = useContext(ShopContext); // Hämta totala antalet varor i kundvagnen från context
   return (
     <Navbar  expand="md" className="navbar-dark bg-dark "  data-bs-theme="dark" >
       <Container>
@@ -22,6 +25,8 @@ const CustomNav = () => {
             <Link to="/kids" className="nav-link mx-5">kids</Link>
             <Link to="/cart" className="nav-link">
               <FontAwesomeIcon icon={faShoppingCart} size="lg" />
+              <Badge bg="danger" className="cart-badge">{getTotalCartItems()}</Badge>
+            
             </Link>
           </Nav>
         </Navbar.Collapse>

@@ -38,9 +38,20 @@ export const ShopContextProvider = (props) => {
         }
         return totalAmount;
       };
+      const getTotalCartItems = () => {
+        let totalItems = 0;
+        for (const item in cartItems) {
+            totalItems += cartItems[item];
+        }
+        return totalItems;
+    };
+
+    const clearCart = () => {
+        setCartItems(getDefaultCart()); // Återställ varukorgen till noll
+    };
 
     return (
-        <ShopContext.Provider value={{ cartItems, addToCart, removeFromCart ,updateCart,getTotalCartAmount}}>
+        <ShopContext.Provider value={{ cartItems, addToCart, removeFromCart ,updateCart,getTotalCartAmount,getTotalCartItems,clearCart}}>
             {props.children}
         </ShopContext.Provider>
     );
