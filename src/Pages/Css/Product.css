@@ -39,3 +39,10 @@
 .product-card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Lägg till skugga när musen hovrar över kortet */
 }
+@media only screen and (max-width: 768px) {
+    
+    .product-card{
+        height: 450px;
+    }
+    
+  }

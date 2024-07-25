@@ -92,7 +92,7 @@
       width: 100%; /* Ändra bredden på produktcontainer till full bredd för mobila enheter */
       display: grid;
       align-items: center;
-     grid-template-columns: 1fr  ;
+      grid-template-columns: 1fr  ;
       margin-top: 20px; /* Justera övre marginal för produkter för mobila enheter */
     }
   
