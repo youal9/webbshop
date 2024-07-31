@@ -16,7 +16,7 @@ const CustomNav = () => {
   return (
     <Navbar  expand="md" className="navbar-dark bg-dark "  data-bs-theme="dark"  >
       <Container>
-        <Navbar.Brand href="/Home" >AthletX-M </Navbar.Brand>
+      <Navbar.Brand as={Link} to="/Home">AthletX-M</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto  " >
