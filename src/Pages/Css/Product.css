@@ -8,7 +8,15 @@
     transition: box-shadow 0.3s ease; /* Lägg till övergångseffekt för box-shadow */
     cursor: pointer; /* Lägg till en pekare när musen hovrar över kortet */
 }
-
+.productss{
+    width: 100%;
+    margin-top: 60px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+}
 .product-image-wrapper {
     position: relative;
     overflow: hidden;
@@ -39,10 +47,23 @@
 .product-card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Lägg till skugga när musen hovrar över kortet */
 }
+
+@media only screen and (max-width: 1000px) {
+    .productss {
+        grid-template-columns: 1fr 1fr; /* Två kolumner vid 820px och mindre */
+        gap: 20px; /* Lägg till mellanrum mellan korten */
+        margin-top: 20px; /* Justera övre marginal för produkter vid 820px och mindre */
+    }
+}
 @media only screen and (max-width: 768px) {
     
     .product-card{
         height: 450px;
     }
-    
+    .productss {
+        display: grid;
+        grid-template-columns: 1fr ; /* Uppdatera till två kolumner för mobila enheter */
+        gap: 20px; /* Lägg till mellanrum mellan grid-element för mobila enheter */
+        margin-top: 20px; /* Justera övre marginal för produkter för mobila enheter */
+      }
   }
