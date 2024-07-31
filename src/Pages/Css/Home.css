@@ -84,15 +84,7 @@
     margin-bottom: 90px;
   }
 
-  .productss{
-    width: 100%;
-    margin-top: 60px;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    
-}
+ 
 .future{
     text-align: center;
     margin-top: 55px;
@@ -127,11 +119,6 @@
         margin-left: 90px;
         
         }
-      .productss {
-        display: grid;
-        grid-template-columns: 1fr ; /* Uppdatera till två kolumner för mobila enheter */
-        gap: 20px; /* Lägg till mellanrum mellan grid-element för mobila enheter */
-        margin-top: 20px; /* Justera övre marginal för produkter för mobila enheter */
-      }
+      
   }
   
