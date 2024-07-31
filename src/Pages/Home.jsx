@@ -24,7 +24,7 @@ const Home = () => {
 
         <section className="video-section">
           <div className="video-container">
-            <video src={video} autoPlay loop muted playsInline style={{ maxWidth: "100%", maxHeight: "500px" }} />
+            <video src={video} autoPlay loop muted playsInline controls={false}  style={{ maxWidth: "100%", maxHeight: "500px" }} />
             <div className='video-text'>
                 <h2> Coming Soon</h2>
             </div>
