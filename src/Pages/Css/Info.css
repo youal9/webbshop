@@ -45,6 +45,23 @@
   }
   
   
+  @media only screen and (max-width: 820px) {
+    .product-detail {
+      flex-direction: column; /* Stack items vertically on tablets */
+    }
+  
+    .product-info-container {
+      padding: 20px; /* Add padding for better spacing */
+    }
+  
+    .cart-pro {
+      width: 80%; /* Make button more responsive */
+    }
+  
+    .productt-image {
+      width: 100%; /* Ensure image fits within container */
+    }
+  }
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {
