@@ -74,11 +74,21 @@
   }
   
   
+  @media only screen and (max-width: 1024px){
   
+    .shop-products{
+      width: 100%;
+      
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      place-items: center;
+    }
+  }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     .shop {
-      width: 100%; /* Ändra bredden på hela shop-container till full bredd för mobila enheter */
+      width: 100%; 
       
     }
    
@@ -91,9 +101,9 @@
     .shop-products{
       width: 100%; /* Ändra bredden på produktcontainer till full bredd för mobila enheter */
       display: grid;
-      align-items: center;
+  
       grid-template-columns: 1fr  ;
-      margin-top: 20px; /* Justera övre marginal för produkter för mobila enheter */
+      
     }
   
     
