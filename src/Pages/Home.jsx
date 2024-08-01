@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Pages/Css/Home.css';
 import { useTypewriter} from 'react-simple-typewriter';
-import video from "../assets/Airr.mp4"
+import video from "../assets/ny.mp4"
 import sport from "../assets/Shot.jpg"
 import { Link } from 'react-router-dom'; // Glöm inte att importera Link här
 import Product from '../Components/Product/Product';
