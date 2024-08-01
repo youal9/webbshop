@@ -12,7 +12,7 @@ const Home = () => {
     const homeProducts = Products.filter(product => product.category === 'home');
 
     const[typewriter]=useTypewriter({
-        words:['Style and Fashion','Performance and Durability','Comfort'],
+        words:['Style and Fashion','Modern Elegance','Comfort'],
         loop:{},
         typeSpeed:100,
         delaySpeed:1000,
