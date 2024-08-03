@@ -31,6 +31,11 @@ const Info = () => {
     return <h2>Product not found</h2>;
   }
 
+ // Bestäm vilka storleksalternativ som ska visas baserat på produkttypen
+  const sizeOptions = product.type === 'clothing'
+  ? ['XS', 'S', 'M', 'L']  // Om produkttypen är kläder, använd dessa storlekar
+  : ['40', '41', '42', '43'];  // Om produkttypen inte är kläder (dvs. skor), använd dessa storlekar
+
   return (
     <div className="product-container">
       <h2 className="product-name">Product Detail</h2>
@@ -54,15 +59,10 @@ const Info = () => {
             <p className="info-title">Select Size:</p>
             <select value={selectedSize} onChange={handleSizeChange}>
               <option value="">Select Size</option>
-              <option value="XS">XS</option>
-              <option value="S">S</option>
-              <option value="M">M</option>
-              <option value="L">L</option>
-              <option value="XL">XL</option>
-              <option value="XXL">XXL</option>
-              <option value="40">40</option>
-              <option value="41">41</option>
-              <option value="42">42</option>
+
+              {sizeOptions.map(size => (
+                <option key={size} value={size}>{size}</option>
+              ))}
               
             </select>
           </div>
