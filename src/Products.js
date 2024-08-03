@@ -40,7 +40,8 @@ export const Products=[
         price:"500",
         productImage:product1,
         description:"Barcelona Home Shirt 2023/24 ", 
-        category: "men" 
+        category: "men",
+        type: "clothing"
         
 
     },
@@ -50,7 +51,8 @@ export const Products=[
         price:"350",
         productImage:product2,
         description:"Man U Home Shirt 2023/24 ", 
-        category: "men" 
+        category: "men",
+        type: "clothing"
 
     },
     {
@@ -59,7 +61,8 @@ export const Products=[
         price:"400",
         productImage:product3,
         description:"Ac Milan Home Shirt 2023/24 ", 
-        category: "men" 
+        category: "men",
+        type: "clothing"
 
     },
     {
@@ -68,7 +71,8 @@ export const Products=[
         price:"600",
         productImage:product4,
         description:"Real Madrid Away Shirt 2023/24 ", 
-        category: "men" 
+        category: "men",
+        type: "clothing"
 
     },
     {
@@ -78,7 +82,7 @@ export const Products=[
         productImage:product5,
         description:"Chuck Taylor All Star ", 
         category: "men" ,
-      
+        type: "shoes"
        
     },
     {
@@ -87,7 +91,8 @@ export const Products=[
         price:"800",
         productImage:product6,
         description:"Fear of God Essentials Buttercream Hoodie ", 
-        category: "men" 
+        category: "men",
+        type: "clothing"
         
     },
     {
@@ -96,7 +101,8 @@ export const Products=[
         price:"2000",
         productImage:product7,
         description:" AIR JORDAN 1 ", 
-        category: "men" 
+        category: "men",
+        type: "shoes"
 
     },
     {
@@ -105,7 +111,9 @@ export const Products=[
         price:"900",
         productImage:product8,
         description:" Nike Air Force 1 '07 - White/Black", 
-        category: "men" 
+        category: "men",
+        type: "shoes"
+        
 
     },
     {
@@ -114,7 +122,8 @@ export const Products=[
         price:"200",
         productImage:product13,
         description:" Sports Cropped Leggings ", 
-        category: "men" 
+        category: "men",
+        type: "clothing"
 
     },
     {
@@ -123,8 +132,8 @@ export const Products=[
         price:"500",
         productImage:product9,
         description:"NIKE Away Shirt ", 
-        category: "home" 
-
+        category: "home", 
+        type: "clothing"
     },
     {
         id:11,
@@ -132,7 +141,9 @@ export const Products=[
         price:"500",
         productImage:product10,
         description:" adidas Originals Spezial IN - Preloved Red/Vit/Vit", 
-        category: "home" 
+        category: "home",
+        type: "shoes"
+       
 
     },
     {
@@ -141,7 +152,9 @@ export const Products=[
         price:"500",
         productImage:product11,
         description:" Chuck Taylor All Star ", 
-        category: "home" 
+        category: "home",
+        type: "shoes"
+        
 
     },
     {
@@ -150,7 +163,8 @@ export const Products=[
         price:"500",
         productImage:product12,
         description:"training t-shirt ", 
-        category: "home" 
+        category: "home",
+        type: "clothing"
 
     },
     {
@@ -159,7 +173,8 @@ export const Products=[
         price:"500",
         productImage:product14,
         description:"Women's World Cup 2023  ", 
-        category: "women" 
+        category: "women",
+        type: "clothing"
 
     },
     {
@@ -168,7 +183,9 @@ export const Products=[
         price:"500",
         productImage:product15,
         description:"Renew Sneakers Women ", 
-        category: "women" 
+        category: "women",
+        type: "shoes"
+        
 
     },
     {
@@ -177,7 +194,8 @@ export const Products=[
         price:"500",
         productImage:product16,
         description:"NSW Tech Fleece ", 
-        category: "women" 
+        category: "women",
+        type: "clothing"
 
     },
     {
@@ -186,7 +204,8 @@ export const Products=[
         price:"500",
         productImage:product17,
         description:"Seamless Training Leggings Women", 
-        category: "women" 
+        category: "women", 
+        type: "clothing"
 
     },
     {
@@ -195,7 +214,8 @@ export const Products=[
         price:"500",
         productImage:product18,
         description:"Contour Training Top Women", 
-        category: "women" 
+        category: "women",
+        type: "clothing"
 
     },
     {
@@ -204,7 +224,9 @@ export const Products=[
         price:"500",
         productImage:product19,
         description:"Winter Sneakers Women ", 
-        category: "women" 
+        category: "women", 
+        type: "shoes"
+    
 
     },
     {
@@ -213,7 +235,8 @@ export const Products=[
         price:"500",
         productImage:product20,
         description:"Condivo 21 - Gul/Navy ", 
-        category: "women" 
+        category: "women",
+        type: "clothing"
 
     },
     {
@@ -222,7 +245,9 @@ export const Products=[
         price:"500",
         productImage:product21,
         description:"Slides Women", 
-        category: "women" 
+        category: "women",
+        type: "shoes"
+      
 
     },
     {
@@ -231,7 +256,8 @@ export const Products=[
         price:"500",
         productImage:product22,
         description:"Cropped Tee Women", 
-        category: "women" 
+        category: "women",
+        type: "clothing"
 
     },
     {
@@ -240,7 +266,8 @@ export const Products=[
         price:"500",
         productImage:product23,
         description:" InstitutoVit Kid", 
-        category: "kids" 
+        category: "kids",
+        type: "clothing"
 
     },
     {
@@ -249,7 +276,9 @@ export const Products=[
         price:"500",
         productImage:product24,
         description:"White-Blue Horizon ", 
-        category: "kids" 
+        category: "kids",
+        type: "shoes"
+       
 
     },
     {
@@ -258,7 +287,9 @@ export const Products=[
         price:"500",
         productImage:product25,
         description:"14 Club MG for kids ", 
-        category: "kids" 
+        category: "kids",
+        type: "shoes"
+       
 
     },
     {
@@ -267,7 +298,8 @@ export const Products=[
         price:"500",
         productImage:product26,
         description:"Nike - T-Shirt Neymar JR ", 
-        category: "kids" 
+        category: "kids",
+        type: "clothing"
 
     },
     {
@@ -276,7 +308,8 @@ export const Products=[
         price:"500",
         productImage:product27,
         description:"Home Shirt 2024/25 Baby-Kit Barn", 
-        category: "kids" 
+        category: "kids",
+        type: "clothing"
 
     },
     {
@@ -285,7 +318,8 @@ export const Products=[
         price:"500",
         productImage:product28,
         description:"Neymar Jr. Half Zip Flare-Barn", 
-        category: "kids" 
+        category: "kids",
+        type: "clothing"
 
     },
     {
@@ -294,7 +328,9 @@ export const Products=[
         price:"500",
         productImage:product29,
         description:" Indoor Sports Shoes", 
-        category: "kids" 
+        category: "kids",
+        type: "shoes"
+        
 
     },
     {
@@ -304,6 +340,7 @@ export const Products=[
         productImage:product30,
         description:" Black Gloves  ", 
         category: "kids" 
+        
 
     },
     {
@@ -312,7 +349,9 @@ export const Products=[
         price:"500",
         productImage:product31,
         description:" Dortmund Hoodie  ", 
-        category: "kids" 
+        category: "kids",
+        type: "clothing"
+
 
     },
     
