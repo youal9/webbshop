@@ -1,13 +1,9 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import { Link } from 'react-router-dom';
 
 import { Products } from '../Products';
 import Product from '../Components/Product/Product';
 import '../Pages/Css/Shop.css';
-
-
-
-
 
 
 
@@ -44,7 +40,7 @@ const Kids = () => {
         value={searchTerm} 
         onChange={handleSearchChange} 
       />
-      <button type="submit">Sök</button>
+      <button className='button-men' type="submit">Sök</button>
      </form>
      </div>
 

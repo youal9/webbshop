@@ -13,6 +13,8 @@ const Info = () => {
   // Funktion för att hantera ändringar i storleksvalet
   const handleSizeChange = (event) => {
     setSelectedSize(event.target.value);
+    console.log(event)
+    
   };
 
   const handleAddToCart = (e) => {
@@ -63,8 +65,9 @@ const Info = () => {
               {sizeOptions.map(size => (
                 <option key={size} value={size}>{size}</option>
               ))}
-              
+             
             </select>
+           
           </div>
         </div>
       </div>

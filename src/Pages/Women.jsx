@@ -46,7 +46,7 @@ const Women = () => {
         value={searchTerm} 
         onChange={handleSearchChange} 
       />
-      <button type="submit">Sök</button>
+      <button className='button-men'  type="submit">Sök</button>
      </form>
      </div>
 

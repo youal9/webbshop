@@ -1,5 +1,4 @@
 .title{
-    margin-top: 10px;
     text-align: center;
     font-size: 4.5px;
   }
@@ -8,12 +7,26 @@
     font-size: 3.5rem;
     color: rgb(0, 0, 0);
   }
-  
+  .button-men{
+    background-color: #2a302b; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .button-men:hover{
+    background-color: rgba(110, 182, 244, 0.344);
+    color: black;
+  }
   .shop {
    width: 100%; /* Ange den maximala bredden för huvudinnehållet */
     margin: 0 auto; /* Centrera huvudinnehållet */
     padding: 0 20px; /* Lägg till lite utfyllnad på sidorna för att skapa utrymme runt innehållet */
      min-height: 100vh; 
+    background-color: rgba(243, 226, 226, 0.273);
   }
   
 
@@ -71,9 +84,16 @@
   .search-form {
   display: flex;
   align-items: center;
+  border: #2a302b45;
   }
-  
-  
+  .search-form input {
+   /* Remove the border */
+    font-size: 18px; /* Font size for the input */
+    outline: none; /* Remove default focus outline */
+    background-color: #ffffff; /* Optional: set a background color */
+}
+
+
   @media only screen and (max-width: 1024px){
   
     .shop-products{
